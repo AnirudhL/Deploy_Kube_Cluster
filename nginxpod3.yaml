@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginxpod3
+  labels:
+    name: nginxpod3
+spec: 
+  containers:
+  - name: nginxc1
+    image: nginx
