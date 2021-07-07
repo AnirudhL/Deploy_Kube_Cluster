@@ -4,6 +4,7 @@ metadata:
   name: nginxpod3
   labels:
     name: nginxpod3
+  namespace: test
 spec: 
   containers:
   - name: nginxc1
